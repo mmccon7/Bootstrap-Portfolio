@@ -4,12 +4,16 @@
 	<title>McConaghie</title>
 </head>
 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
 <body>
 
 <nav class="navbar navbar-default">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
+    
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -17,34 +21,53 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#" style="background-color: #4aaaa5; color: white;">Matthew McConaghie</a>
+      <a class="navbar-brand" href="#">Matthew McConaghie</a>
     </div>
 
-<!--     <!Collect the nav links, forms, and other content for toggling class="active"> -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-->
+    </div>
+  </div>
 </nav>
 
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
-    </a>
+<div class="container">
+
+  <div class="row col-md-6">
+      <h3 class="media-heading">About Me</h3>
+       <div class="media">
+        <div class="media-body">
+            <img class="pull-left" src="assets/images/profilepic.jpg" alt="Profile Pic">  
+            <p>I am an Arizona native of 20 plus years and enjoy living in the desert with my wife and 3 beautiful children.  I currently work as a Salesman / IT Support Rep at a building supply company and spend my days checking website sales, taking phone orders, and troubleshooting computer user issues.</p>
+            <p>I became interested in coding and website creation shortly after graduating college when I discovered that I could easily create an online presence from popular website creation sites such as WIX or Squarespace.  For many of the website creation sites I couldnt achieve the exact look or structure that I was looking for.  I wanted to have the control to develop everything without having to use a theme or template.</p>
+            <p>The University of Arizona Coding Bootcamp has given me the tools and knowledge to began a career transition into web development.  I am excited to break into this exciting career field and get coding!</p>
+        </div>
+      </div>
   </div>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    ...
+
+  <div class="row">
+      <div class="col-md-4 pull-right">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Connect with Me</h3>
+          </div>
+            <a href="#"><img src="assets/images/githublogo.png" class="img-responsive" style="width:60px; height: 60px"></a>
+            <a href="#"><img src="assets/images/linkedinlogo.png" class="img-responsive" style="width:60px; height: 60px"></a>
+            <a href="#"><img src="assets/images/stackoverflowlogo.png" class="img-responsive" style="width:60px; height: 60px"></a>
+          </div>
+      </div> 
   </div>
-</div>
 
+</div> 
 
-
+<footer>
+    <div class="container">
+      Copyright &copy; 2017 Matthew McConaghie
+    </div>
+</footer>
 
 
 </body>
